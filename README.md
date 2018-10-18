@@ -27,4 +27,4 @@ GraphQL queries can be sent via POST request to http://212.111.41.68:3000. A ver
   }'
 ```
 
-All of the datasets available via the `mapData` module are defined within this concept file from the `datahub-cms` repository: https://raw.githubusercontent.com/devinit/datahub-cms/master/global-picture/concept.csv (Note: `subnational_p20` and `survey_p20` are placeholder datasets only for more complicated data stored within DI's tileserver itself.) You can see an example of how this query might be operationalized in this repo here: https://github.com/devinit/datahub-api-documentation/blob/master/graphql.R
+All of the datasets available via the `mapData` module are defined within this concept file from the `datahub-cms` repository: https://github.com/devinit/datahub-cms/blob/master/global-picture/concept.csv (Note: `subnational_p20` and `survey_p20` are placeholder datasets only for more complicated data stored within DI's tileserver itself.) You can see an example of how this query might be operationalized in this repo here: https://github.com/devinit/datahub-api-documentation/blob/master/graphql.R

@@ -24,13 +24,12 @@ GQL <- function(query,
 }
 
 query = '{
-    mapData(id: "data_series.largest_intl_flow") {
+    mapData(id: "data_series.in_ha") {
       map {
         id
         name
         color
         year
-        detail
         value
         slug
       }
@@ -39,4 +38,4 @@ query = '{
 
 result = GQL(query)
 
-largest_intl_flow = result$mapData$map %>% map_df(simplify_all)
+in_ha = result$mapData$map %>% map_df(simplify_all)
